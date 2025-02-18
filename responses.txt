@@ -1,0 +1,33 @@
+[
+    {
+        "generated_query": "supabase.table('clients').select(\"*\").execute()",
+        "query_result": [
+            {
+                "id": 1,
+                "name": "tomas",
+                "payments": 4
+            },
+            {
+                "id": 2,
+                "name": "orlando",
+                "payments": 10
+            },
+            {
+                "id": 3,
+                "name": "jacobo",
+                "payments": 11
+            },
+            {
+                "id": 4,
+                "name": "carlos",
+                "payments": 1
+            },
+            {
+                "id": 5,
+                "name": "alejandro",
+                "payments": 4
+            }
+        ],
+        "user_answer": "Aqu\u00ed tienes la lista de tus clientes con sus detalles:\n\n1. **id**: 1 | **Nombre**: Tomas | **Pagos realizados**: 4\n2. **id**: 2 | **Nombre**: Orlando | **Pagos realizados**: 10\n3. **id**: 3 | **Nombre**: Jacobo | **Pagos realizados**: 11\n4. **id**: 4 | **Nombre**: Carlos | **Pagos realizados**: 1\n5. **id**: 5 | **Nombre**: Alejandro | **Pagos realizados**: 4\n\nSi necesitas espec\u00edficamente solo los nombres o alg\u00fan otro detalle adicional, h\u00e1zmelo saber. \ud83d\ude0a"
+    }
+]
