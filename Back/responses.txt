@@ -174,5 +174,79 @@
             }
         ],
         "user_answer": "El cliente con la mayor cantidad de pagos es Jacobo, quien tiene 11 pagos registrados."
+    },
+    {
+        "generated_query": "No se pudo corregir la consulta. Por favor intente de nuevo.",
+        "query_result": "An error occurred in the DB conection: invalid syntax (<string>, line 1)",
+        "user_answer": "No se pudo generar una respuesta. Por favor intente de nuevo."
+    },
+    {
+        "generated_query": "No se pudo corregir la consulta. Por favor intente de nuevo.",
+        "query_result": "An error occurred in the DB conection: invalid syntax (<string>, line 1)",
+        "user_answer": "No se pudo generar una respuesta. Por favor intente de nuevo."
+    },
+    {
+        "generated_query": "No se pudo corregir la consulta. Por favor intente de nuevo.",
+        "query_result": "An error occurred in the DB conection: invalid syntax (<string>, line 1)",
+        "user_answer": "No se pudo generar una respuesta. Por favor intente de nuevo."
+    },
+    {
+        "generated_query": "No se pudo corregir la consulta. Por favor intente de nuevo.",
+        "query_result": "An error occurred in the DB conection: invalid syntax (<string>, line 1)",
+        "user_answer": "No se pudo generar una respuesta. Por favor intente de nuevo."
+    },
+    {
+        "generated_query": "No se pudo corregir la consulta. Por favor intente de nuevo.",
+        "query_result": "An error occurred in the DB conection: invalid syntax (<string>, line 1)",
+        "user_answer": "No se pudo generar una respuesta. Por favor intente de nuevo."
+    },
+    {
+        "generated_query": "No se pudo corregir la consulta. Por favor intente de nuevo.",
+        "query_result": "An error occurred in the DB conection: invalid syntax (<string>, line 1)",
+        "user_answer": "No se pudo generar una respuesta. Por favor intente de nuevo."
+    },
+    {
+        "generated_query": "No se pudo corregir la consulta. Por favor intente de nuevo.",
+        "query_result": "An error occurred in the DB conection: invalid syntax (<string>, line 1)",
+        "user_answer": "No se pudo generar una respuesta. Por favor intente de nuevo."
+    },
+    {
+        "generated_query": "No se pudo corregir la consulta. Por favor intente de nuevo.",
+        "query_result": "An error occurred in the DB conection: invalid syntax (<string>, line 1)",
+        "user_answer": "No se pudo generar una respuesta. Por favor intente de nuevo."
+    },
+    {
+        "generated_query": "supabase.table('orders').select('*').execute()",
+        "query_result": [
+            {
+                "id": 1,
+                "created_at": "2025-02-18T13:49:12.267072+00:00",
+                "total_cost": 10,
+                "items": 2,
+                "product": "Hamburguesa"
+            },
+            {
+                "id": 2,
+                "created_at": "2025-02-18T13:49:55.124376+00:00",
+                "total_cost": 20,
+                "items": 1,
+                "product": "Perro"
+            },
+            {
+                "id": 3,
+                "created_at": "2025-02-18T13:50:47.328263+00:00",
+                "total_cost": 50,
+                "items": 3,
+                "product": "Sanduche"
+            },
+            {
+                "id": 4,
+                "created_at": "2025-02-18T13:51:29.74453+00:00",
+                "total_cost": 100,
+                "items": 5,
+                "product": "Pizza"
+            }
+        ],
+        "user_answer": "Aqu\u00ed tienes la lista de tus \u00f3rdenes:\n\n1. Orden #1 - Hamburguesa (2 unidades) - $10 (18/feb/2025)\n2. Orden #2 - Perro (1 unidad) - $20 (18/feb/2025)\n3. Orden #3 - Sanduche (3 unidades) - $50 (18/feb/2025)\n4. Orden #4 - Pizza (5 unidades) - $100 (18/feb/2025)"
     }
 ]
