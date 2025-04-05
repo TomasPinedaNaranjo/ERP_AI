@@ -326,5 +326,39 @@
             }
         ],
         "user_answer": "Aqu\u00ed tienes la lista de tus clientes:  \n1. Tomas (4 pagos)  \n2. Orlando (10 pagos)  \n3. Jacobo (11 pagos)  \n4. Carlos (1 pago)  \n5. Alejandro (4 pagos)"
+    },
+    {
+        "user_input": "Dame la lista de mis clientes",
+        "generated_query": "supabase.table('clients').select('*').execute()",
+        "query_result": [
+            {
+                "id": 1,
+                "name": "tomas",
+                "payments": 4
+            },
+            {
+                "id": 2,
+                "name": "orlando",
+                "payments": 10
+            },
+            {
+                "id": 3,
+                "name": "jacobo",
+                "payments": 11
+            },
+            {
+                "id": 4,
+                "name": "carlos",
+                "payments": 1
+            },
+            {
+                "id": 5,
+                "name": "alejandro",
+                "payments": 4
+            }
+        ],
+        "user_answer": "Aqu\u00ed tienes la lista de tus clientes:  \n- Tom\u00e1s  \n- Orlando  \n- Jacobo  \n- Carlos  \n- Alejandro",
+        "strategy": "**Estrategias Integrales para el Restaurante de Hamburguesas**\n\n### **1. Marketing Digital y Promociones:**\n- **Redes Sociales:** \n  - Crear contenido en Instagram/TikTok con reels de preparaci\u00f3n de hamburguesas, challenges (ej: \"Desaf\u00edo BurgerXL\" donde los clientes suban fotos con sus combos favoritos usando un hashtag propio). \n  - Promociones exclusivas para seguidores: \"Lleva 2 hamburguesas al precio de 1 los viernes, mostrando un like y compartiendo la publicaci\u00f3n\".\n  - Publicidad geolocalizada cerca de universidades y zonas de fiesta.\n\n- **Horas Pico y Combos Tem\u00e1ticos:**\n  - **\"Pre-Fiesta Combos\" (16:00-20:00):** Paquetes grupales (ej: 3 hamburguesas + papas + bebidas a 60K) para incentivar visitas antes de salir.\n  - **\"After Party\" (00:00-03:00):** Men\u00fa nocturno con hamburguesas + caf\u00e9 energ\u00e9tico o bebidas reconfortantes (sopas/agua gratis) para atraer clientes post-fiesta.\n\n### **2. Programa de Fidelizaci\u00f3n:**\n  - **Sistema de Puntos:** Por cada 30K gastados, acumulan un punto. 5 puntos = hamburguesa gratis. \n  - **Clientes VIP:** Invitar a Tom\u00e1s, Orlando, Jacobo, Carlos y Alejandro al programa \"Embajadores BurgerXL\": si traen 3 amigos, reciben un combo gratis. Destacar sus rese\u00f1as en redes como testimonios.\n\n### **3. Optimizaci\u00f3n Log\u00edstica:**\n  - **Pedidos Anticipados:** App/web para reservar combos en horas pico, con 10% de descuento. \n  - **Prep Efficiency:** Pre-cocinar bases de hamburguesas y organizar ingredientes en m\u00f3dulos r\u00e1pidos los viernes/s\u00e1bados.\n  - **Colaboraci\u00f3n con Repartidores:** Aliarse con apps de delivery para priorizar pedidos del restaurante en noches de alta demanda.\n\n### **4. Alianzas Estrat\u00e9gicas:**\n  - **Descuentos Cruzados:** Acuerdos con bares o discotecas cercanas: \"Presenta ticket del restaurante y entra sin cover\" o \"Con tu entrada a la fiesta, obt\u00e9n 15% de descuento en BurgerXL\".\n  - **Eventos Universitarios:** Patrocinar actividades en universidades (ej: stands en ferias) con degustaciones y cupones de descuento.\n\n### **5. Experiencia Nocturna \u00danica:**\n  - **Ambiente Festivo:** M\u00fasica animada, iluminaci\u00f3n din\u00e1mica y ofertas rel\u00e1mpago (ej: \"Happy Hour de Postres\" a mitad de precio de 22:00-23:00).\n  - **Servicio Express:** Zona de autoservicio con c\u00f3digos QR para pedir sin esperar, ideal para grupos con prisa.\n\n### **6. Feedback y Mejora Continua:**\n  - Encuestas r\u00e1pidas v\u00eda WhatsApp al salir: \"\u00bfC\u00f3mo mejorar? Env\u00eda tu opini\u00f3n y gana una bebida gratis en tu pr\u00f3xima visita\".\n\n**Resultado Esperado:** Aumentar visitas recurrentes, maximizar ventas en horas pico, posicionarse como el \"lugar de antes/despu\u00e9s de la fiesta\" y fortalecer la comunidad universitaria alrededor de la marca. \ud83c\udf54\ud83c\udf89",
+        "status": "success"
     }
 ]

@@ -1,3 +1,20 @@
 # Ignorar archivos sensibles y configuraciones locales
 config.py
 .env
+Back/venv
+
+**/node_modules/
+**/build/
+__pycache__/
+*.py[cod]
+*.so
+# VS Code settings
+.vscode/
+
+# Log files
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
