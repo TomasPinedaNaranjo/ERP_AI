@@ -248,5 +248,83 @@
             }
         ],
         "user_answer": "Aqu\u00ed tienes la lista de tus \u00f3rdenes:\n\n1. Orden #1 - Hamburguesa (2 unidades) - $10 (18/feb/2025)\n2. Orden #2 - Perro (1 unidad) - $20 (18/feb/2025)\n3. Orden #3 - Sanduche (3 unidades) - $50 (18/feb/2025)\n4. Orden #4 - Pizza (5 unidades) - $100 (18/feb/2025)"
+    },
+    {
+        "user_input": "dame la lista de mis clientes",
+        "generated_query": "supabase.table('clients').select('*').execute()",
+        "query_result": "An error occurred in the DB conection: [Errno 11001] getaddrinfo failed",
+        "user_answer": "Lo siento, pero no puedo mostrar la lista de clientes en este momento debido a un error de conexi\u00f3n con la base de datos. Por favor, verifica la configuraci\u00f3n de red o int\u00e9ntalo nuevamente m\u00e1s tarde.",
+        "strategy": "**Estrategias para impulsar tu negocio de comida r\u00e1pida dirigido a estudiantes universitarios:**  \n\n### \ud83d\udcc8 **Marketing y Promoci\u00f3n:**  \n1. **Redes Sociales con Enfoque Universitario:**  \n   - Crea contenido en TikTok/Instagram Reels mostrando preparaciones r\u00e1pidas, promociones exclusivas y ambiente del local. Usa hashtags como #BurgersDeNoche o #[NombreDeTuUniversidadLocal].  \n   - Colabora con influencers estudiantiles (ej: l\u00edderes de grupos universitarios) para rese\u00f1as o sorteos.  \n\n2. **Promociones Temporales:**  \n   - **\"Happy Hour Pre-Fiesta\" (6 PM - 8 PM):** Descuentos del 20% en combos (hamburguesa + bebida + papas) para atraer clientes antes de salir.  \n   - **\"Mitad de Precio Post-Fiesta\" (11 PM - 1 AM):** Hamburguesas sencillas a mitad de precio para captar el p\u00fablico que sale de antros.  \n\n3. **Alianzas con Universidades y Bares:**  \n   - Ofrece cupones descargables en plataformas estudiantiles (ej: app de la universidad).  \n   - Coordina con bares cercanos para crear paquetes combinados (ej: \"Una cerveza en X bar + Burger a $15K\").  \n\n### \ud83d\ude9a **Log\u00edstica y Operaciones:**  \n4. **Men\u00fa Express para Horas Pico:**  \n   - Dise\u00f1a un men\u00fa reducido los viernes y s\u00e1bados con 3-4 opciones de hamburguesas listas en 5 minutos (ej: \"Mode Fiesta: Rapidez Garantizada\").  \n   - Pre-preparar ingredientes b\u00e1sicos (carnes sazonadas, vegetales picados) desde la ma\u00f1ana.  \n\n5. **Servicio de Recogida SIN FILAS:**  \n   - Implementa un sistema de pedidos previos por WhatsApp o app sencilla. Los clientes retiran su pedido en un mostrador exclusivo.  \n\n### \ud83c\udfaf **Fidelizaci\u00f3n y Experiencia:**  \n6. **Carnet VIP Estudiantil:**  \n   - Entrega un carnet f\u00edsico (o digital por QR) que otorgue:  \n     - 1 burger gratis cada 10 compras.  \n     - Acceso a eventos especiales (ej: Noches de Juegos con descuentos).  \n\n7. **Experiencia Nocturna:**  \n   - Viernes/S\u00e1bados: Transforma el local con m\u00fasica en vivo (DJ local o banda emergente) hasta tarde. Crea zonas fotogr\u00e1ficas con luces ne\u00f3n para atraer contenido org\u00e1nico en redes.  \n\n### \ud83d\udee0\ufe0f **Soluci\u00f3n Alternativa a la Base de Datos:**  \nMientras se resuelve el error t\u00e9cnico:  \n- Usa encuestas f\u00edsicas simples al pagar (ej: \"\u00bfC\u00f3mo supiste de nosotros?\") para recopilar datos manualmente.  \n- Ofrece un 10% de descuento en la pr\u00f3xima compra si registran su correo en una tablet en caja.  \n\n**\u00a1Enfoque clave:** **Ser el \"pit-stop\" obligado antes/depu\u00e9s de salir, con precios accesibles y experiencias shareables en redes!** \ud83c\udf54\ud83c\udf89"
+    },
+    {
+        "user_input": "dame la lista de mis clientes",
+        "generated_query": "supabase.table('clients').select('*').execute()",
+        "query_result": [],
+        "user_answer": "No hay clientes registrados en este momento.",
+        "strategy": "**Estrategias para tu restaurante de hamburguesas dirigido a estudiantes universitarios:**\n\n### \ud83d\udcf1 **Marketing Digital y Promociones:**\n1. **Redes Sociales Creativas:**  \n   - Crea contenido en TikTok/Instagram Reels mostrando la preparaci\u00f3n de hamburguesas, con desaf\u00edos como *\"El combo m\u00e1s grande que puedas terminar antes de salir de fiesta\"*.  \n   - Ofrece un **10% de descuento** al etiquetar al restaurante en una story o publicar una foto con un hashtag \u00fanico (ej: #BurgerNightUni).  \n\n2. **Combos Nocturnos:**  \n   - **\"After Party Pack\":** Hamburguesa + papas + bebida energ\u00e9tica a $22.000 (solo despu\u00e9s de las 10 PM viernes/s\u00e1bado).  \n   - **\"Pre-Fiesta Express\":** Combo peque\u00f1o r\u00e1pido (hamburguesa b\u00e1sica + refresco) a $15.000 para atraer a quienes van de paso.  \n\n3. **Colaboraciones con Universidades:**  \n   - Descuento del 15% al mostrar credencial estudiantil.  \n   - Alianzas con grupos estudiantiles para eventos (ej: \"Noche de Juegos\" con descuentos en combos).  \n\n### \ud83d\ude80 **Log\u00edstica y Experiencia:**\n4. **Servicio Ultra-R\u00e1pido en Horas Pico:**  \n   - Men\u00fa simplificado los viernes/s\u00e1bados con opciones pre-armadas para reducir tiempos de espera.  \n   - Sistema de pedidos anticipados v\u00eda WhatsApp o app sencilla para recoger sin filas.  \n\n5. **Horario Extendido:**  \n   - Abrir hasta las 2 AM viernes y s\u00e1bados para captar al p\u00fablico post-fiesta.  \n\n6. **Env\u00edos a Residencias Estudiantiles:**  \n   - Promociona entregas gratis en zonas cercanas a universidades despu\u00e9s de medianoche.  \n\n### \ud83c\udf89 **Fidelizaci\u00f3n y Engagement:**\n7. **Programa de Lealtad:**  \n   - Tarjeta o app donde acumulan un \"sello\" por cada compra. Al completar 10, obtienen una hamburguesa gratis.  \n\n8. **Noches Tem\u00e1ticas:**  \n   - Viernes Karaoke: Combos con bebida gratis si cantan una canci\u00f3n.  \n   - S\u00e1bado de Trivia: Preguntas universitarias con premios como combos gratis.  \n\n### \ud83d\udccd **Publicidad Local:**\n9. **Geomarketing en Zonas Clave:**  \n   - Anuncios en Facebook/Instagram dirigidos a radios de 3 km cerca de universidades y bares.  \n   - Volantes f\u00edsicos en residencias estudiantiles con cup\u00f3n de \"2x1 en papas\".  \n\n**\u00a1Extra!** Crea un \"Combo del Estudiante Aplazado\" (hamburguesa doble + caf\u00e9) para d\u00edas de ex\u00e1menes y promocionalo en horas de alta tensi\u00f3n acad\u00e9mica. \ud83c\udf54\u2615  \n\nEsta combinaci\u00f3n de precios accesibles, experiencias divertidas y eficiencia operativa puede aumentar tu visibilidad y fidelizar a tu p\u00fablico. \u00a1\u00c9xito! \ud83d\ude80"
+    },
+    {
+        "user_input": "dame la lista de mis clientes",
+        "generated_query": "supabase.table('clients').select('*').execute()",
+        "query_result": [
+            {
+                "id": 1,
+                "name": "tomas",
+                "payments": 4
+            },
+            {
+                "id": 2,
+                "name": "orlando",
+                "payments": 10
+            },
+            {
+                "id": 3,
+                "name": "jacobo",
+                "payments": 11
+            },
+            {
+                "id": 4,
+                "name": "carlos",
+                "payments": 1
+            },
+            {
+                "id": 5,
+                "name": "alejandro",
+                "payments": 4
+            }
+        ],
+        "user_answer": "Aqu\u00ed tienes la lista de tus clientes con su ID y cantidad de pagos realizados:\n\n1. Tomas (ID 1) - 4 pagos  \n2. Orlando (ID 2) - 10 pagos  \n3. Jacobo (ID 3) - 11 pagos  \n4. Carlos (ID 4) - 1 pago  \n5. Alejandro (ID 5) - 4 pagos",
+        "strategy": "**Estrategias para tu restaurante de hamburguesas dirigido a estudiantes universitarios:**\n\n### 1. **Programa de fidelizaci\u00f3n segmentado**  \n   - **Clientes frecuentes (Orlando, Jacobo):**  \n     - Ofrecer un sistema de puntos por compra (ej: 10 compras = hamburguesa gratis).  \n     - Invitarlos a eventos exclusivos (ej: \"Noche VIP\" con men\u00fa especial o descuentos dobles).  \n   - **Clientes ocasionales (Tomas, Alejandro):**  \n     - Enviar cupones de \"3ra compra gratis\" al alcanzar 2 visitas.  \n   - **Clientes nuevos (Carlos):**  \n     - Regalo sorpresa en su pr\u00f3xima visita (ej: papas gratis o bebida extra).  \n\n### 2. **Combos nocturnos para viernes/s\u00e1bado**  \n   - Crear **\"Combos Fiesta\"** (hamburguesa + papas + bebida energ\u00e9tica) a **$22,000**, ideal para antes/despu\u00e9s de salir.  \n   - Incluir opciones vegetarianas o light para ampliar el p\u00fablico.  \n\n### 3. **Experiencia r\u00e1pida y digital**  \n   - Implementar:  \n     - Pedidos por WhatsApp/Instagram con c\u00f3digo QR en mesas.  \n     - Zona de recogida express para pedidos online.  \n   - Ofrecer **10% de descuento** en pedidos prepagados por app los fines de semana.  \n\n### 4. **Alianzas con universidades**  \n   - Colaborar con grupos estudiantiles:  \n     - Descuento del 15% mostrando carnet universitario.  \n     - Promocionar en eventos universitarios con muestras gratis.  \n\n### 5. **Marketing en redes sociales**  \n   - Contenido viral:  \n     - Videos de \"Hamburguesa del mes\" con ingredientes exagerados.  \n     - Retos como \"Trae a 3 amigos y paga la mitad\".  \n   - Usar datos de clientes para enviar ofertas personalizadas (ej: \"\u00a1Orlando! Tu 11\u00aa visita te da derecho a...\").  \n\n### 6. **Horario extendido los fines de semana**  \n   - Abrir hasta 2 AM viernes/s\u00e1bado para captar el post-fiesta.  \n   - Incluir opciones \"anti-cruda\" (jugos, hamburguesas con huevo) al finalizar la noche.  \n\n**Acci\u00f3n inmediata:**  \nUsa los IDs para enviar mensajes personalizados:  \n- **Jacobo (ID 3):** \"\u00a1Eres TOP 1! Canjea tu pr\u00f3xima hamburguesa + papas GRATIS este viernes\".  \n- **Carlos (ID 4):** \"\u00bfVolvemos? Tu segunda visita incluye una bebida de cortes\u00eda \ud83e\udd64\".  \n\n\u00bfTe gustar\u00eda profundizar en alguna de estas ideas o ajustarlas a recursos espec\u00edficos? \ud83c\udf54\ud83d\ude80"
+    },
+    {
+        "generated_query": "supabase.table('clients').select('*').execute()",
+        "query_result": [
+            {
+                "id": 1,
+                "name": "tomas",
+                "payments": 4
+            },
+            {
+                "id": 2,
+                "name": "orlando",
+                "payments": 10
+            },
+            {
+                "id": 3,
+                "name": "jacobo",
+                "payments": 11
+            },
+            {
+                "id": 4,
+                "name": "carlos",
+                "payments": 1
+            },
+            {
+                "id": 5,
+                "name": "alejandro",
+                "payments": 4
+            }
+        ],
+        "user_answer": "Aqu\u00ed tienes la lista de tus clientes:  \n1. Tomas (4 pagos)  \n2. Orlando (10 pagos)  \n3. Jacobo (11 pagos)  \n4. Carlos (1 pago)  \n5. Alejandro (4 pagos)"
     }
 ]
